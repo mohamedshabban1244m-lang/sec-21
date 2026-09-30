@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind -->
+    <script src="js/browser@4.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>
+
+
+    
+    <!--START HEADER -->
+
+    <header class="header-section h-[650px] bg-cover bg-right">
+
+        <div class="w-[90%] m-auto px-5">
+
+            <!-- Navbar -->
+            <nav class="h-28 flex items-center justify-between">
+
+                <!-- Logo -->
+                <a href="#" class="text-white text-2xl overflow-hidden">
+                    <img src="img/header.png" class="w-30 h-auto" alt="Madrasty Logo">
+                </a>
+
+                <div class="relative ">
+
+
+
+                    <!-- Mobile Menu -->
+                    <button class="peer  md:hidden text-white text-2xl">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+
+
+                    <!-- Links -->
+                    <ul class=" hidden
+                        peer-focus:flex
+                        md:flex
+                        flex-col md:flex-row
+                        gap-4 md:gap-12
+                        text-white uppercase text-xs
+                        absolute md:static
+                        right-0 top-full
+                        bg-black/90 md:bg-transparent
+                        p-5 md:p-0
+                        w-50 md:w-auto
+                        rounded
+                        z-50">
+
+                        <li>
+                            <a href="#" class="hover:text-green-500 font-bold text-sm tracking-[1px]">
+                                HOME
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#about" class="hover:text-green-500 font-bold text-sm tracking-[1px]">
+                                ABOUT
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#services" class="hover:text-green-500 font-bold text-sm tracking-[1px]">
+                                AVAIRE
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="hover:text-green-500 font-bold text-sm tracking-[1px]">
+                                SUBJECT
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Login -->
+                <button
+                    class="  hidden md:flex bg-green-500 hover:bg-green-600  text-white text-xl font-extrabold py-2 px-5 rounded">
+                    Log In
+                </button>
+
+
+
+            </nav>
+
+
+            <!-- Hero -->
+            <div class="grid lg:grid-cols-2">
+
+                <!-- Green Box -->
+                <div class="bg-green-700 w-full md:w-[65%] h-[300px] mt-36 rounded-[15px]">
+
+                    <h1 class="text-2xl md:text-4xl font-bold text-white pt-8 pl-6 leading-[1.9]">
+
+                        Always laugh<br>
+                        When you can,<br>
+                        It is free<br>
+                        medicine
+
+                    </h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- END HEADER -->
+
+
+    <!--START ABOUT SECTION -->
+
+    <section class="bg-white py-20" id="about">
+
+        <div class="w-[90%] m-auto px-5 grid md:grid-cols-2 items-center gap-9">
+
+            <!-- Section Title -->
+            <div class="md:col-span-2 text-center mb-10">
+
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    school clinic
+                </h2>
+
+                <hr class="w-[165px] h-[5px] mx-auto bg-[#FFF5D4] border-0">
+
+            </div>
+
+
+            <!-- Image -->
+            <div>
+                <img src="img/compo.png" class="w-full h-auto object-contain" alt="School Clinic">
+            </div>
+
+
+            <!-- Text -->
+            <div>
+
+                <h2 class="text-2xl md:text-3xl font-bold mb-5 text-[#14CAF0]">
+                    the school clinic services
+                </h2>
+
+                <p class="leading-7 text-sm mb-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis animi vero, quaerat est nisi eum consequuntur facere
+                    error tempora, neque maiores assumenda ipsam amet,
+                    delectus tempore. Magni officia eos expedita.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END ABOUT -->
+
+
+    <!-- SERVICES -->
+
+    <section class="tech-home pt-20 pb-25 lg:h-[750px] bg-cover" id="services">
+
+        <div class="w-[90%] m-auto">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <!-- Section Title -->
+                <div class="md:col-span-2 lg:col-span-4">
+
+                    <h2 class="tracking-[2px] text-center text-white text-2xl font-semibold mt-10 mb-10">
+
+                        Donot Hostegate
+                        <br class="md:hidden">
+                        To Be In Touch
+
+                    </h2>
+
+                </div>
+
+
+                <!-- Card 1 -->
+                <div class="col-span-1 bg-white p-5 rounded-xl">
+
+                    <img src="img/s1.png" class="w-full" alt="First Aid">
+
+                    <h5 class="mt-4 mb-3 text-[#439ca4] text-lg">
+                        first aid
+                    </h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam cupiditate ipsa fugit vero pariatur autem
+                        blanditiis sapiente ducimus fugiat dolore?
+                    </p>
+
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="col-span-1 bg-white p-5 rounded-xl">
+
+                    <img src="img/s2.png" class="w-full" alt="First Aid">
+
+                    <h5 class="mt-4 mb-3 text-[#439ca4] text-lg">
+                        first aid
+                    </h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam cupiditate ipsa fugit vero pariatur autem
+                        blanditiis sapiente ducimus fugiat dolore?
+                    </p>
+
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="col-span-1 bg-white p-5 rounded-xl">
+
+                    <img src="img/s3.png" class="w-full" alt="First Aid">
+
+                    <h5 class="mt-4 mb-3 text-[#439ca4] text-lg">
+                        first aid
+                    </h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam cupiditate ipsa fugit vero pariatur autem
+                        blanditiis sapiente ducimus fugiat dolore?
+                    </p>
+
+                </div>
+
+
+                <!-- Card 4 -->
+                <div class="col-span-1 bg-white p-5 rounded-xl">
+
+                    <img src="img/s4.png" class="w-full" alt="First Aid">
+
+                    <h5 class="mt-4 mb-3 text-[#439ca4] text-lg">
+                        first aid
+                    </h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam cupiditate ipsa fugit vero pariatur autem
+                        blanditiis sapiente ducimus fugiat dolore?
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END SERVICES -->
+
+
+    <!-- START ABOUT HOME -->
+
+    <section class="about-home my-15">
+
+        <div class="w-[90%] m-auto">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                <!-- Image 1 -->
+                <div>
+                    <img src="img/Group 182.png" alt="" class="block m-auto w-[50%] md:w-[70%] mb-10">
+                </div>
+
+
+                <!-- Image 2 -->
+                <div>
+                    <img src="img/Group 182.png" alt="" class="block m-auto w-[50%] md:w-[70%] mb-10">
+                </div>
+
+
+                <!-- Image 3 -->
+                <div>
+                    <img src="img/Group 182.png" alt="" class="block m-auto w-[50%] md:w-[70%] mb-10">
+                </div>
+
+
+                <!-- Image 4 -->
+                <div>
+                    <img src="img/Group 182.png" alt="" class="block m-auto w-[50%] md:w-[70%] mb-10">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END ABOUT HOME -->
+
+
+    <!-- START-FOOTER -->
+
+    <section class="footer py-15 bg-green-700 rounded-[150px_150px_0px_0px]" id="contact">
+
+        <div class="w-[90%] m-auto">
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 gap-8">
+
+                <!-- About -->
+                <div class="col-span-1 sm:col-span-3 text-white text-center mt-6">
+
+                    <h2 class="text-4xl font-bold mb-5 tracking-[1px]">
+                        Madrasty
+                    </h2>
+
+                    <p class="leading-7 text-sm mb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nemo laborum eveniet fugiat soluta sequi expedita eum
+                        doloribus corrupti nulla ex.
+                    </p>
+
+                </div>
+
+
+                <!-- Student -->
+                <div class="text-center md:text-left">
+
+                    <h5 class="text-[#0DC0E9] text-xl font-bold mb-5 tracking-[1px]">
+                        Student
+                    </h5>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Result
+                    </a>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Exams
+                    </a>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Quizes
+                    </a>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Courses
+                    </a>
+
+                </div>
+
+
+                <!-- News -->
+                <div class="text-center md:text-left">
+
+                    <h5 class="text-[#0DC0E9] text-xl font-bold mb-5 tracking-[1px]">
+                        News
+                    </h5>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Uniform
+                    </a>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Champion
+                    </a>
+
+                    <a href="#" class="block text-white mb-3 text-lg">
+                        Tables
+                    </a>
+
+                </div>
+
+
+                <!-- Contact -->
+                <div class="text-center md:text-left">
+
+                    <h5 class="text-[#0DC0E9] text-xl font-bold mb-5 tracking-[1px]">
+                        Contact
+                    </h5>
+
+                    <a href="tel:2033500394" class="block text-white mb-3 text-lg">
+                        2033500394
+                    </a>
+
+                    <a href="mailto:Or32@Yahoo.com" class="block text-white mb-3 text-lg">
+                        Or32@Yahoo.com
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- END FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
